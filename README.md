@@ -1,6 +1,7 @@
 ## Note
 
 This is the Windows 11 UI recreated in the browser. Its is not done yet as i am planning on making some features work such as opening menu's.
+I am not very good with TailwindCSS so the code might be a little bit messy.
 
 Note: I do not own the rights of this UI. All rights go to Microsoft.
 
