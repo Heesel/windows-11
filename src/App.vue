@@ -69,12 +69,15 @@
 </template>
 <script>
 import moment from 'moment';
-
 export default {
   data() {
     return {
       currentTime: null
     }
+  },
+
+  async mounted() {
+    
   },
 
   methods: {
@@ -90,7 +93,7 @@ export default {
 
   computed: {
     currentDate() {
-      return moment().format('MM-DD-YYYY')
+      return moment().format('DD-MM-YYYY')
     }
   }
 }
